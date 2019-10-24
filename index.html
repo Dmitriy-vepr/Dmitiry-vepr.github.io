@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Автозапчасти для иномарок в наличии и на заказ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+      <a class="navbar-brand" href="#header">Главная</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="bar"><h4>SuperCar72</h4></div>
+
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+            <a class="nav-link" data-value="about" href="#about">Поиск з/ч</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-value="contacts" href="#contacts"
+              >Контакты</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header" id="header">
+      <div class="overlay">
+        <div class="container">
+          <div class="description">
+            <h1>
+              Добро пожаловать на SuperCar72!
+            </h1>
+            <p>
+              Если хотите узнать цены и наличие запчастей- нажмите кнопку
+              "Начать поиск"
+            </p>
+            <button
+              class="btn btn-outline-secondary btn-lg"
+              onclick="document.location='#about'"
+            >
+              Начать поиск
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="about" id="about">
+      <h1>Поиск запчстей</h1>
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <img src="images/cars-0001.jpg" alt="car-0001" class="img-fluid" />
+            <div class="inner">
+              <span class="text-justify">SuperCar72</span>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 desc">
+            <div class="contact-form">
+              <div class="container">
+                <form>
+                  <div class="row">
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          placeholder="Марка автомобиля"
+                          name="Марка автомобиля"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          placeholder="Модель автомобиля"
+                          name="Модель автомобиля"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          placeholder="Год выпуска"
+                          name="Год выпуска"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          placeholder="VIN-номер"
+                          name="VIN-номер"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          placeholder="Имя Фамилия"
+                          name="Имя Фамилия"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          class="form-control form-control-sm"
+                          placeholder="Номер телефона"
+                          name="Номер телефона"
+                        />
+                      </div>
+                      <div class="form-group">
+                        <label>Запишите список запчастей и количество:</label>
+                        <textarea class="form-control form-control-sm">
+                        </textarea>
+                      </div>
+                      <input
+                        type="submit"
+                        class="btn btn-secondary btn-block"
+                        value="Узнать наличие и цены"
+                        name="Узнать наличие и цены"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contacts" id="contacts">
+      <h1>Контакты и реквизиты</h1>
+      <h3>SuperCar72</h3>
+      <div class="conteiner">
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12 left">
+            <p>г. Тюмень, Семенова 29 к.3</p>
+            <p>Время работы: Пн-Вс 9.00 - 18.00</p>
+            <p>Телефон: +7 (3452) 234-567</p>
+            <p>тел. моб.: +7 (982) 942-23-20</p>
+            <p>Email: tmnzap@yandex.ru</p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12 right">
+            <p>ИП Волосников Д.А.</p>
+            <p>ИНН 450139646561</p>
+            <p>ОГРНИП 319723200020250</p>
+            <p>Расчетный счет 40802810270010172237</p>
+            <p>МОСКОВСКИЙ ФИЛИАЛ АО КБ "МОДУЛЬБАНК</p>
+            <p>Г.Москва</p>
+            <p>Кор. счет 30101810645250000092</p>
+            <p>БИК 044525092</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-bg">
+        <div class="copyright">
+          <p>&copy; SuperCar72</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
