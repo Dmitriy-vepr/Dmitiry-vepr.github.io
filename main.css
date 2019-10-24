@@ -1,0 +1,195 @@
+.navbar {
+  background: #f97300;
+}
+.nav-link,
+.navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  background: #f4f4f4;
+  color: #f97300;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-toggler {
+  background: #fff !important;
+}
+.bar {
+  color: #f4f4f4;
+  position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+ 
+  
+
+/*Стиль хедера*/
+.header {
+  background-image: url("../images/cars-0003.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.7);
+}
+.description {
+  position: absolute;
+  top: 22%;
+  margin: auto;
+  padding: 2em;
+}
+.description h1 {
+  color: #f97300;
+}
+.description p {
+  color: #666;
+  font-size: 20px;
+  width: 50%;
+  line-height: 1.5;
+}
+.description button {
+  border: 1px solid #f97300;
+  background: #f97300;
+  color: #fff;
+}
+.about {
+  margin: 4em 0;
+  padding: 1em;
+  position: relative;
+}
+.about h1 {
+  color: #f97300;
+  margin: 1.5em;
+  margin-top: 50px;
+}
+.about img {
+  width: 100%;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.about span {
+  display: block;
+  color: #f97300;
+  position: absolute;
+}
+
+.about .desc {
+  padding: 0;
+  border-left: 2px solid #868c8d;
+}
+.about .desc h3 {
+  color: #5c6364;
+}
+.about .desc p {
+  line-height: 1;
+  color: #888;
+}
+.inner {
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+}
+
+.contact-form {
+ display: block;
+  width: 75%;
+  margin: auto;
+  
+
+  position: relative;
+}
+
+.contact-form .right {
+  max-width: 100%;
+}
+.contact-form .right .btn-secondary {
+  background: #f97300;
+  color: #fff;
+  border: 0;
+}
+.contact-form .right .form-control::placeholder {
+  color: #888;
+  font-size: 16px;
+}
+label {
+  color: #888;
+  font-size: 16px;
+}
+
+.contact {
+  margin-top: 8em;
+}
+.contact h1,
+h3 {
+  color: #f97300;
+  margin: 50px;
+}
+.contact span {
+  display: block;
+  color: #f97300;
+  position: absolute;
+  left: 170px;
+}
+.contact .desc {
+  padding: 2em;
+  border-left: 4px solid #494c4d;
+}
+.contact .desc  {
+  color: #454949;
+}
+.contact p {
+  line-height: 2;
+  color: #888;
+  margin-left: 25px;
+}
+.contacts {
+  margin-top: 6em;
+}
+.contacts h1, h3 {
+  color: #f97300;
+  margin: 30px;
+}
+
+.contacts  {
+  padding: 2em;
+  border-left: 4px solid #494c4d;
+  color: #454949;
+}
+.contacts p {
+  line-height: 1.5;
+  color: #888;
+  margin-left: 10px;
+}
+.left {
+  margin-top: 60px;
+}
+
+.footer-bg {
+  background: #8c8d87; /* Цвет фона подвала */
+  margin-top: 0; /* Сдвигаем вниз */
+}
+.copyright {
+  width: 740px; /* Ширина макета без полей */
+  padding: 0 10px 10px; /* Поля */
+  margin: 0; /* Выравнивание по центру */
+  color: #21221e; /* Цвет текста */
+}
+.copyright p {
+  margin: 0; /* Отступы текста */
+}
+.conteiner {
+  width: 100%;
+  padding: 20px;
+}
