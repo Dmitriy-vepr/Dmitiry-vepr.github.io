@@ -31,7 +31,7 @@
 
 /*Стиль хедера*/
 .header {
-  background-image: url("../images/cars-0003.jpg");
+  background-image: url("cars-0003.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
